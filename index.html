@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Landing page | resturant</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        *{
+            font-family:'Times New Roman', Times, serif;
+        }
+        html{
+            overflow-x: hidden;
+        }
+        body{
+            background-color: #F4ECDF !important;
+        }
+        .nav-item{
+            padding: 0 2rem;
+            font-size: 1.25em;
+        }
+        .nav-item a{
+            color: #555 !important;
+            transition: border-bottom 2s;
+        }
+        .nav-item a:hover{
+            border-bottom: 1px solid #f4362b;
+            color: #f4362b !important;
+        }
+        .search-btn{
+            color: #000;
+            padding: 1rem 1.25rem;
+        }
+        .call-btn{
+            background-color: #f4362b;
+            color: #fff; 
+            padding: 1rem 1.25rem;
+        }
+        .bag-btn{
+            background-color: #fcbd27;
+            color: #fff; 
+            padding: 1rem 1.25rem;
+        }
+        .coupon{
+            background-color: #f4362b;
+            width: 20rem;
+            margin: 5em 0 0 6em;
+        }
+        .coupon p{
+            font-size: 1.25em;
+        }
+        .intro{
+            margin-left: 5em;
+         }
+         .burger-image img{
+            margin-top: -10em;
+            margin-right: 10em;
+         }
+        .features-box{
+            margin-left: 5em;
+            background-color: #F9F4EC;
+            border-radius: 5em; 
+            width: 100rem;
+        }
+        .features-text{
+            font-size: 1.5em;
+        }
+        .search-btn, .call-btn, .bag-btn{
+            cursor: pointer;
+        }
+        .container-fluid {
+            margin-top: 5rem !important;
+        }
+        .order-now{
+            margin-top: -2em;
+        }
+        .order-now-btn{
+            font-size: 1.25em;
+            background-color: rgb(233, 162, 10);
+            color: #fff;
+            padding: 1.25rem 2.5rem; 
+            margin-left: 100px;
+            border: none;
+            transition: padding 0.5s;
+        }
+        .order-now-btn:hover{
+            padding: 1.25rem 3.5rem;  
+        }
+    </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="ribbon.css" />
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg border">
+        <a class="navbar-brand ml-5" href="#">
+            <img src="images/logo.png" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Recipes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Download</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+            
+          </ul>
+              <div role="button" class="search-btn rounded-circle mr-5"><i class="fa fa-search fa-lg"></i></div>
+              <a href="tel:+4805550103"><div role="button" class="call-btn rounded-circle"><i class="fa fa-phone"></i></div></a>
+              <p class="font-weight-bold mx-3 mt-3">(480) 555-0103</p>
+              <div role="button" class="bag-btn rounded-circle"><i class="fa fa-shopping-bag"></i></div>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+            <div class="coupon text-light">
+                <p class="p-2 ml-4">Free Home Delivery 30 min</p>
+            </div>
+        
+            <div class="row mt-5">
+                <div class="col intro">
+                    <p class="display-1 font-weight-bold">Enjoy Your<br />Chicken<br /> Burger</p>
+                    <p class="text-muted p-2 lead">Make sure your order and get easily with few<br /> minute your best food items.</p>
+                </div>
+                <div class="col burger-image">
+                    <img src="images/burger.png" alt="burger" />
+                </div>
+            </div> 
+
+            <div class="row order-now">
+               <div class="col-3">
+                 <button class="order-now-btn rounded-pill pl-5">Order Now <i class="ml-4 fa fa-arrow-right"></i>
+               </div>
+               <div class="col">
+                   <img src="images/arrow.png" style="margin: -25px;"/>
+               </div>
+            </div>
+
+            <div class="features-box mt-5 p-4 mb-5">
+                <div class="row" style="margin-left: 15rem;">
+                    <div class="col"><img src="images/snap.png" width="75" alt="easy-order-img"></div>
+                    <div class="col"><img src="images/fast-delivery.png" width="75" alt="fast-delivery-img"></div>
+                    <div class="col"><img src="images/cooking.png" width="75" alt="best-quality-img"></div>
+                </div>
+                <div class="row" style="margin-left: 13rem">
+                    <div class="col font-weight-bold features-text">Easy Order</div>
+                    <div class="col font-weight-bold features-text">Fastest Delivery</div>
+                    <div class="col font-weight-bold features-text">Best Quality</div>
+                </div>
+            </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
